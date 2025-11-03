@@ -50,7 +50,8 @@ An automated toll collection system using RFID technology, built with the 8051 m
 
 ##  Circuit Diagram
 
-![Circuit Diagram](circuit_diagram.jpg)
+![Circuit Diagram](https://drive.google.com/uc?export=view&id=1BIFTTxMIeuAYuFQxCPPQmAXVO0wWdZjr
+)
 *The circuit diagram shows the complete hardware setup and connections*
 
 ## Software Architecture
