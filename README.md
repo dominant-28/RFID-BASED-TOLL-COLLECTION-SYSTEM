@@ -13,7 +13,7 @@ An automated toll collection system using RFID technology, built with the 8051 m
 - **UART Communication**: Serial debugging and monitoring capability
 - **Audio Feedback**: Buzzer alerts for different system events
 
-## 🛠️ Hardware Components
+## Hardware Components
 
 | Component | Specification | Purpose |
 |-----------|--------------|---------|
@@ -53,7 +53,7 @@ An automated toll collection system using RFID technology, built with the 8051 m
 ![Circuit Diagram](circuit_diagram.jpg)
 *The circuit diagram shows the complete hardware setup and connections*
 
-## 💻 Software Architecture
+## Software Architecture
 
 ### Main Components
 
@@ -81,7 +81,7 @@ An automated toll collection system using RFID technology, built with the 8051 m
    - Debouncing implemented
    - Returns pressed key value
 
-## 📊 System Flow
+## System Flow
 
 ```
 Start → Initialize LCD & UART → Display "Scan RFID Card"
@@ -100,7 +100,7 @@ Return to Start  1: Recharge → Process Payment → Update Balance
                  2: Exit → Cancel Transaction
 ```
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 - Keil µVision IDE or SDCC compiler
@@ -142,7 +142,7 @@ char card1[] = "03300F65A292";
 char card2[] = "123456789012";
 ```
 
-## 📝 Usage
+## Usage
 
 1. **Normal Transaction**:
    - Scan RFID card
